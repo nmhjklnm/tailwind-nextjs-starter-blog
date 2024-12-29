@@ -10,15 +10,19 @@ import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
 import PostLayout from '@/layouts/PostLayout'
 import PostBanner from '@/layouts/PostBanner'
+import PostLayouttoc from '@/layouts/PostLayouttoc'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 import { notFound } from 'next/navigation'
 
-const defaultLayout = 'PostLayout'
+// const defaultLayout = 'PostLayout'
+// const defaultLayout = 'PostBanner'
+const defaultLayout = 'PostLayouttoc'
 const layouts = {
   PostSimple,
   PostLayout,
   PostBanner,
+  PostLayouttoc,
 }
 
 export async function generateMetadata(props: {
