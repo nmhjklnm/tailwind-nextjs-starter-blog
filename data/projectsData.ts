@@ -5,23 +5,20 @@ interface Project {
   imgSrc?: string
 }
 
+
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'llama_index',
+    description: '在LlamaIndex-Core的流式API服务中修复了异步IO阻塞问题。',
+    imgSrc: '/static/images/llama_index.png', // 图片路径可根据实际需求修改
+    href: 'https://github.com/run-llama/llama_index',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'LazyLLM',
+    description: '参与开发LazyLLM架构，维护项目文档，管理版本发布和问题跟踪。',
+    imgSrc: '/static/images/lazyllm.jpeg', // 图片路径可根据实际需求修改
+    href: 'https://github.com/LazyAGI/LazyLLM',
   },
-]
+];
 
 export default projectsData

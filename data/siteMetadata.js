@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: "Y1h's Blog",
   author: 'y1h',
-  headerTitle: 'Next Mind Hub',
-  description: "Where AI's coolest innovations and smartest minds come to play",
+  headerTitle: 'Mind Hub',
+  description: "学习、记录、分享、提高",
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
