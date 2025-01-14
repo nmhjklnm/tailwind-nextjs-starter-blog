@@ -48,7 +48,17 @@ git clone https://github.com/nmhjklnm/tailwind-nextjs-starter-blog
 
 5. 迁移基础教程到`Basic tutorial`文件夹中。
 
-   
+6. 部署vercel
+
+     部署过程中弹出`prettier`报错，代码没有格式化，个人项目，短平快，直接粗暴
+
+     ```shell
+     npx json -I -f package.json -e 'delete this.lint-staged["*.+(js|jsx|ts|tsx|json|css|md|mdx)"]'
+     npx json -I -f package.json -e 'delete this["lint-staged"]'
+     ```
+
+     
+
 
 ### 下一步工作
 
@@ -56,3 +66,6 @@ git clone https://github.com/nmhjklnm/tailwind-nextjs-starter-blog
 2. 对css样式进行小更新。
 3. 定制一个炫酷的首页特效。
 
+### Ref
+
+[tailwind-nextjs-starter-blog](https://github.com/nmhjklnm/tailwind-nextjs-starter-blog)
