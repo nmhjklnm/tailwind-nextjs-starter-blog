@@ -48,6 +48,8 @@ Agent 是部署在被监控服务器上的轻量级程序，负责采集服务�
 
  Dashboard 与 Agent 之间交互流程的示意图：
 
+![image-20250115162436511](https://yyhimage.oss-cn-shanghai.aliyuncs.com/img/image-20250115162436511.png)
+
 ```mermaid
 sequenceDiagram
     participant Dashboard

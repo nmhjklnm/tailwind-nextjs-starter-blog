@@ -37,7 +37,11 @@ sequenceDiagram
 
 ```
 
+![image-20250115162356129](https://yyhimage.oss-cn-shanghai.aliyuncs.com/img/image-20250115162356129.png)
+
 正常流程如上，但是很明显一台主机如果没有环境隔离，同一时刻只能使用一个代理，所以如果想用两个代理，就需要一个额外的工具实现一个虚拟环境，再为这个虚拟环境配置美区住宅代理，这时候就可以使用**AdsPower** ，**AdsPower**实现在代理之上创建一个虚拟环境，同时也支持配置代理功能。因此能实现我的需求
+
+![image-20250115162409125](https://yyhimage.oss-cn-shanghai.aliyuncs.com/img/image-20250115162409125.png)
 
 ```mermaid
 sequenceDiagram
