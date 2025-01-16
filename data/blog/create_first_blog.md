@@ -3,7 +3,7 @@ type: Blog
 title: '创建可持续更新的开源个人博客'
 date: '2025-1-1'
 lastmod: '2025-01-2'
-tags: ['blog', '生活']
+tags: ['blog']
 draft: false
 layout: PostLayouttoc
 summary: 'nextjs模板，开启个人博客笔记成长记录'

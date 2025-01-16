@@ -3,7 +3,7 @@ type: Blog
 title: 'VPS搭建与优化指南'
 date: '2025-1-5'
 lastmod: '2025-01-05'
-tags: ['blog', '生活']
+tags: ['computer network']
 draft: false
 layout: PostLayouttoc
 summary: '记录VPS搭建与优化的详细步骤，适合新手和进阶用户参考。'
@@ -14,13 +14,13 @@ authors: ['default']
 
 记录VPS搭建与优化的详细步骤，适合新手和进阶用户参考。
 
-
-
 **连接VPS**
 
 使用以下命令连接VPS，并设置保持连接：
 
+```
 ssh -o ServerAliveInterval=60 root@192.227.xx.xxx
+```
 
 **IP测试工具**
 
@@ -39,18 +39,26 @@ ssh -o ServerAliveInterval=60 root@192.227.xx.xxx
 
 以下是一键脚本，方便快速配置：
 
+```
 wget -N --no-check-certificate https://raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh
+```
+
+
 
 **注意：**
  一键脚本可以修改配置项，但生成的配置结果中有一行分享链接（如下），需要手动调整：
 
+```
 hysteria2://nmhjklnm@192.xxx.xxx.xx:xxxx/?insecure=1&sni=www.bing.com#Hysteria2-misaka
+```
 
 **关闭防火墙**
 
 使用以下命令关闭防火墙：
 
+```
 sudo systemctl stop firewalld
+```
 
 **提示：**
  教程基于Ubuntu系统，若使用CentOS，请注意操作差异。

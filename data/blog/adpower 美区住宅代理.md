@@ -3,7 +3,7 @@ type: Blog
 title: '配置住宅代理'
 date: '2025-1-12'
 lastmod: '2025-01-12'
-tags: ['blog', '生活']
+tags: ['computer network']
 draft: false
 layout: PostLayouttoc
 summary: '配置更干净的IP，绕过Chatgpt降智封锁'

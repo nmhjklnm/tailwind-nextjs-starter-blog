@@ -3,7 +3,7 @@ type: Blog
 title: 'nezha agent 站群管理工具'
 date: '2025-1-3'
 lastmod: '2025-01-03'
-tags: ['blog', '生活']
+tags: ['Operations', 'computer network']
 draft: false
 layout: PostLayouttoc
 summary: '攒了好多个服务器，有些任务一个一个维护过于麻烦，我需要一个统一的方式去管理、监控我的服务器们。从部署便携性到功能完整性上考虑，选择了这个开源免费的管理面板。'
@@ -49,24 +49,6 @@ Agent 是部署在被监控服务器上的轻量级程序，负责采集服务�
  Dashboard 与 Agent 之间交互流程的示意图：
 
 ![image-20250115162436511](https://yyhimage.oss-cn-shanghai.aliyuncs.com/img/image-20250115162436511.png)
-
-```mermaid
-sequenceDiagram
-    participant Dashboard
-    participant Agent
-    participant Server
-
-    Dashboard->>Agent: 下发监控指令
-    Agent->>Server: 收集性能数据
-    Server->>Agent: 返回性能数据
-    Agent->>Dashboard: 传输性能数据
-    Dashboard->>Dashboard: 分析并展示数据
-    Dashboard->>Agent: 下发任务指令（如执行命令）
-    Agent->>Server: 执行任务
-    Server->>Agent: 返回任务结果
-    Agent->>Dashboard: 传输任务结果
-    Dashboard->>Dashboard: 展示任务结果
-```
 
 通过上述交互，Dashboard 与 Agent 协同工作，实现对服务器的全面监控和管理。
 
